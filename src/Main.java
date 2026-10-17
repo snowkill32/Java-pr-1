@@ -36,7 +36,6 @@ public class Main {
         else System.out.println("Ожирение");
     }
 
-    // Два варианта обменника используют одну формулу.
     static void exchange(Scanner input, boolean withEndings) {
         final double ROUBLES_PER_YUAN = 11.91;
         System.out.print("Введите целое количество юаней: ");
@@ -77,7 +76,6 @@ public class Main {
     }
 }
 
-// Класс Car размещён в том же файле.
 class Car {
     private String model;
     private String license;

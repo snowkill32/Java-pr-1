@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         while (true) {
-            System.out.print("1 - BMI\n2 - Обменник\n3 - Обменник с окончаниями\n4 - Автомобили\n0 - Выход\nВыберите пункт: ");
+            System.out.println("\n1 - BMI\n2 - Обменник\n3 - Обменник с окончаниями\n4 - Автомобили\n0 - Выход");
             int choice = input.nextInt();
             if (choice == 0) break;
             switch (choice) {
